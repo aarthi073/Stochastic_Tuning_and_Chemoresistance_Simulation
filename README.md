@@ -1,4 +1,4 @@
-## Stochasting Tuning Simulation in Response to Cytotoxicity
+# Stochasting Tuning Simulation in Response to Cytotoxicity
 A MATLAB simulation using the Gillespie algorithm to model tumor resistance and random gene expression through fitness-driven epigenetic changes that optimize overall cell health through cell plasticity.
 
 # Project Breakdown
@@ -38,7 +38,7 @@ Parameters and equations are explain in "Simulation_Parameters".
         Simulation Parameters.csv
 ```
 
-#Outputs and Interpretation
+# Outputs and Interpretation
 To optimize a general analysis of stochasticity in RNA production, protein production, and final populatio, the 
 inactivation rate was set to 100, protein level to overcome the effects of the drug (K) were set to 0.001, 
 transcription rate was set to 100, translation rate was set to 70, division rate was set to 0.02, mRNA
@@ -57,10 +57,10 @@ The results are consistent with the hypothesis that stochastic tuning contribute
 Non-genetic variability can be a targetted process in oncology treatments instead of focusing on any one stage of the disease, as resistance prevails against evolving drugs.
 
 
-#Limitations
+# Limitations
 Consideration of cancer stages, mesenchymal-epithelial shift dynamics, limited number of RNA, and limited number of proteins. Additionally,
 treatment cycles, drug administration, and rest periods were ignored in this simulation.
 
-#Author
+# Author
 Aarthi Bharathan B.S. Computational & Applied Mathematics and Statistics in Mathematical Biology, College of William & Mary
 
