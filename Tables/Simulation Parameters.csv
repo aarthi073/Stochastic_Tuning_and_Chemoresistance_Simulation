@@ -1,0 +1,26 @@
+Parameter,Interpretation,Equations,Simulation Values
+division,division constant,,0.02
+k_on,Activation constant,(drug_delta + 0.2*D_current)/(kd+D_current),
+k_off,Inactivation constant,,100
+ktransc,Transcription constant,,100
+ktransl,Translation constant,,70
+mrna_decay,mRNA degradation constant,,0.1
+prot_degrad,Protein degradation constant,,0.5
+drug_delta,Maximum death rate drug can achieve,,                                          0.01-1
+K,Protein level to overcome the effects of the drug,,0.001
+D_current,Current dosage,,"    1, 10, 50, 100, 250, 500, 1000 "
+death,Drug-dependent death rate,drug_delta * ((D_current^n)/ (D_current^n + (K * prot) ^n)),
+n,Hill coefficient resembling the strength of the dose-reponse,,"                                      1, 1.5, 2"
+x,Array of gene states,,
+RNA,Array of mRNA,,
+prot,Array of proteins,,
+active,Activation rate,k_on * (1-x),
+off,Inactivation rate,k_off * x,
+transc,Transcription rate,ktransc * x,
+transl,Translation rate,ktransl * RNA,
+mrna_death,mRNA degradation rate,mrna_decay * RNA,
+prot_death,Protein degradation rate,prot_degrad * prot,
+div,Division rate,"division * ones(1, N)",
+N,Number of cells,,                                         50-100
+tmax,Maximum lifetime of a cell,,50
+kd,induction midpoint dose where 50% of cells are killed,,
