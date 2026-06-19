@@ -21,6 +21,7 @@ where the resistance protein acts as a competitive inhibitor to drug-induced apo
 Parameters and equations are explain in "Simulation_Parameters".
 
 # Repository Structure
+```
 |   README.md
 |   Simulation Parameters.pdf
 |
@@ -35,7 +36,7 @@ Parameters and equations are explain in "Simulation_Parameters".
 |
 \---Tables
         Simulation Parameters.csv
-
+```
 
 #Outputs and Interpretation
 To optimize a general analysis of stochasticity in RNA production, protein production, and final populatio, the 
