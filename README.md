@@ -1,7 +1,7 @@
-##Stochasting Tuning Simulation in Response to Cytotoxicity
+## Stochasting Tuning Simulation in Response to Cytotoxicity
 A MATLAB simulation using the Gillespie algorithm to model tumor resistance and random gene expression through fitness-driven epigenetic changes that optimize overall cell health through cell plasticity.
 
-#Project Breakdown
+# Project Breakdown
 Initiaize gene, RNA, and protein states with an array of zeros and a tracked single RNA molecule and 
 protein with an empty array. 
 
@@ -20,8 +20,21 @@ where the resistance protein acts as a competitive inhibitor to drug-induced apo
 
 Parameters and equations are explain in "Simulation_Parameters".
 
-#Repository Structure
-#copy-paste tree structure from tree command at the end#
+# Repository Structure
+|   README.md
+|   Simulation Parameters.pdf
+|
++---docs
+|       Random Walks Project Paper.pdf
+|
++---src
+|       Stochastic_Tuning_in_Response_to_Cytotoxicity.m
+|
++---Stochastic_Tuning_and_Chemoresistance_Simulation
+|       README.md
+|
+\---Tables
+        Simulation Parameters.csv
 
 
 #Outputs and Interpretation
